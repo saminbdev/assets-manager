@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public class Asset {
     String description;
     String dateAcquired;
@@ -32,4 +34,9 @@ public class Asset {
     public void setOriginalCost(int originalCost) {
         this.originalCost = originalCost;
     }
+
+    public BigDecimal getValue() {
+        return BigDecimal.valueOf(originalCost);
+    }
+
 }

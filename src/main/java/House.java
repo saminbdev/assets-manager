@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public class House extends Asset {
 
     protected String address;
@@ -43,5 +45,10 @@ public class House extends Asset {
 
     public void setLotSize(int lotSize) {
         this.lotSize = lotSize;
+    }
+
+    @Override
+    public BigDecimal getValue() {
+        return BigDecimal.valueOf(2);
     }
 }

@@ -34,4 +34,5 @@ public class Vehicle extends Asset {
     public void setOdometer(int odometer) {
         this.odometer = odometer;
     }
+
 }
