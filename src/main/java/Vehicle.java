@@ -1,2 +1,2 @@
-public class Vehicle {
+public class Vehicle extends Asset {
 }
